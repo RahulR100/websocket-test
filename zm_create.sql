@@ -1116,7 +1116,7 @@ CREATE TABLE Snapshot_Events (
 
 
 -- We generally don't alter triggers, we drop and re-create them, so let's keep them in a separate file that we can just source in update scripts.
-source /usr/share/zoneminder/db/triggers.sql
+source ./triggers.sql
 --
 -- Apply the initial configuration
 --
